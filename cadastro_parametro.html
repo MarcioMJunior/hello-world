@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro de Parametros</title>
+</head>
+<body>
+	<h1>Cadastro de Parametros</h1>
+	<form action="cadastroParametros.php" method="post">
+		<h3>ID da unidade</h3>
+		<input type="number" name="idUnidade"><br>
+		<h3>Horario de inicio na semana</h3>
+		<input type="time" name="inicioSemana"><br>
+		<h3>Horario de fim na semana</h3>
+		<input type="time" name="fimSemana"><br>
+		<h3>Horario de inicio no sabado</h3>
+		<input type="time" name="inicioSabado"><br>
+		<h3>Horario de fim no sabado</h3>
+		<input type="time" name="fimSabado"><br>
+		<h3>Tipo de cobranca</h3>
+		<input type="radio" name="hora" value="1">Minuto
+		<input type="radio" name="minuto" value="1">Hora<br>
+		<h3>Preço do minuto?</h3>
+		<input type="text" name="precoMinuto"><br>
+		<h3>Tempo de toque minimo</h3>
+		<input type="number" name="tempoMinimo"><br>
+		<h3>Percentual de repasse</h3>
+		<input type="number" name="repasse"><br><br>
+		
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
